@@ -3,8 +3,8 @@ module.exports = {
  //param B : integer
  //return an integer
  
-	gcd : function(A, B){
+	gcd : function(A, B) {
         if (B === 0) return A;
-    return this.gcd(B, A % B);
+    	return this.gcd(B, A % B);
 	}
 };
